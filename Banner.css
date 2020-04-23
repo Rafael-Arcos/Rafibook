@@ -23,7 +23,7 @@ h1{
 }
 @keyframes banner{
 	0%,30%{
-		background-image: url(img/muaja.jpg);
+		background-image: url(muaja.jpg);
 		opacity: 1;
 	}
 	31%,34%{
@@ -31,7 +31,7 @@ h1{
 		opacity: 0.1;
 	}
 	35%,65%{
-		background-image: url(img/charly.jpg);
+		background-image: url(charly.jpg);
 		opacity: 1;
 	}
 	66%,69%{
@@ -39,10 +39,10 @@ h1{
 }
 	70%,100%{
 		opacity: 1;
-		background-image: url(img/trest.jpg);/*imagen de la tercera transicion*/
+		background-image: url(trest.jpg);/*imagen de la tercera transicion*/
 	}
 	35%,65%{
-		background-image: url(img/fiedta.jpg);/*imagen de la segunda transicion*/
+		background-image: url(fiedta.jpg);/*imagen de la segunda transicion*/
 		opacity: 1;
 }
    }
