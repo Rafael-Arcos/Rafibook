@@ -1,0 +1,48 @@
+body{
+
+background-color: rgba(77, 18, 143,0.7);
+
+}
+
+h1{
+	color: #F1F131 ;
+}
+
+
+.banner{
+	width: 1500px;
+	height: 700px;
+	border:3px solid gray;
+	margin: auto;
+
+	background-size: : 100% 100%;
+	animation:banner 8s infinite;
+	animation-direction: alternate;
+
+
+}
+@keyframes banner{
+	0%,30%{
+		background-image: url(img/muaja.jpg);/*imagen de la primera transicion*/
+		opacity: 1;
+	}
+	31%,34%{
+		/*opacidad a la hora de hacer transicion*/
+		opacity: 0.1;
+	}
+	35%,65%{
+		background-image: url(img/charly.jpg);/*imagen de la segunda transicion*/
+		opacity: 1;
+	}
+	66%,69%{
+	opacity:0.1;
+}
+	70%,100%{
+		opacity: 1;
+		background-image: url(img/trest.jpg);/*imagen de la tercera transicion*/
+	}
+	35%,65%{
+		background-image: url(img/fiedta.jpg);/*imagen de la segunda transicion*/
+		opacity: 1;
+}
+   }

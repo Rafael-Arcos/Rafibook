@@ -1,0 +1,74 @@
+body{
+  background-image:url(hol.jpg);
+  position: relative;
+  
+}
+
+*{
+	margin: 0;
+	padding:0;			/*Modificacion a todo el codigo*/
+	color: black;
+	font-size: 28px;
+}
+
+#principal{				/*Se modifica la primer separacion*/
+	width: 900px;
+	height: 1100px;
+	background: rgba(243, 243, 80 ,0.6); ;
+	margin:2em auto;
+	padding: 0.5em
+}
+
+.uno{
+	width: 850px;			/*Se modifica la primer y ultima subseparacion*/
+	border-radius: 3em;
+	background: rgba(196, 46, 233,0.3);
+	height: 13%;
+	margin: 1em auto;			
+	border: 15em;
+}
+
+.dos{				/*Se modifica la segunda division*/
+	width: 850px;
+	border-radius: 3em;
+	background: rgba(238, 46, 34,0.5);
+	height: 12%;
+	margin: 1em auto;
+	border: 15em;
+}
+
+.tres{					/*Se modifica la tercer subdiviosion*/
+	width: 850px;
+	border-radius: 3em;
+	height: 50%;
+	margin: 1em auto;
+	border: 15em;
+}
+
+#cuatro{			/*Se modificara la cuarta division*/
+	width: 65%;
+	height:95%;
+	border-radius: 3em;
+	margin: 1em auto;
+	background :rgba(60, 234, 197 ,0.4); 
+	/*Este codio es PARA SEPARAR 2 DIVIONES DE LADO IZQUIERDO UY DERECHO*/
+	float: left;
+}
+
+#cinco{			/*Se modificaa la otra subdivision*/
+	width: 25%;
+	height:95%;
+	border-radius: 3em;
+	margin: 1em auto;
+	background: rgba(60, 234, 197 ,0.4); 
+	float: right;
+}
+
+.articulo{			/*SE MODIFICAN LOS ARTICCULOS*/
+	background: rgba(60, 224, 234,0.7);			
+	border-radius: 3em;
+	margin: 1em auto;
+	width: 80%;
+	height: 15%;
+	color: black;
+}
