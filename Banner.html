@@ -6,7 +6,38 @@
 	<link rel="stylesheet" type="text/css" href="Banner.css">
 </head>
 <body>
-        <h1 align="center">MOMENTOS BELLOS EN FAMILIA</h1>
+
+ <header>	
+		<div class="contenedor">
+			<h1 class="rafa">RAFIBOOK</h1>
+			<input type="checkbox" id="menu-bar">		<!-Se crea boton para el menu->
+			<label class="icon-menu" for="menu-bar"> </label>
+			<nav class="menu">
+<div class="barramenu">
+		<a href="index.html">REGRESAR AL INICIO</a>
+		<a href="https://www.facebook.com/rafa.shuanstager">FACEBOOK</a>
+		<a href="SLIDER.HTML">MIS VIAJES</a>		<!-Declaramos los otros enlaces como instagram ->
+		<div class="menudesplegable">
+			<button class="botondesplegar" onclick="mostrar()">MI FAMILIA</button>
+			<div class="contenidodesplegable" id="Mi_menu">
+				<a href="maqueta.html">Estructura Familiar</a>
+				<a href="Banner.html">Momentos Bellos</a>  
+				<a href="mami.mp4">Video Familiar</a>	
+			</div>
+		</div>
+    	<div class="menudesplegable">
+    	<button class="botondesplegar" onclick="mostrar2()">MUSICA</button>
+			<div class="contenidodesplegable" id="Mi_menu2">
+			<a href="https://www.youtube.com/watch?v=1LyQMg0OeY0">¿D&oacute;nde guardo el coraz&oacute;n?-Kalimba</a>
+			<a href="https://www.youtube.com/watch?v=HgzGwKwLmgM">Don´t stop me now-Queen</a>	<!-Los a son selecionados para  que se desplieguen o no las->
+			<a href="index2.html">Artistas favoritos </a>				<!-Opciones ->
+    		</div>
+    		<script type="text/javascript" src="menucss.js"></script>	<!-Se llama el documento js->
+		</div>
+	</div>
+			</nav>
+		</div>
+	</header>       <h1 align="center">MOMENTOS BELLOS EN FAMILIA</h1>
         <div class="banner"></div>
 </body>
 </html>
